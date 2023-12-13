@@ -8,7 +8,7 @@
  */
 
 #pragma once
-#pragma pack(16)
+//#pragma pack(16)
 
 #include "maxiFFT.h"
 #include <math.h>
@@ -30,6 +30,7 @@ inline double binToHz(unsigned int bin, unsigned int sR, unsigned int bS) {
     return bin*sR/bS;
 }
 
+// is T used anywhere?
 template <class T>
 
 class maxiBarkScaleAnalyser {

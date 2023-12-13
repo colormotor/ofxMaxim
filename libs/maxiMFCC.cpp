@@ -9,7 +9,6 @@
 
 #include "maxiMFCC.h"
 
-
 #ifdef __APPLE_CC__
 template <>
 void maxiMFCCAnalyser<double>::dct(double *mfccs) {
